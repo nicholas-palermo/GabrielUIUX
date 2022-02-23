@@ -3,14 +3,46 @@
         background-color: black;
     }
 
+    h1, h2 {
+        font-family: 'Poppins Light', sans-serif;
+        color: white;
+    }
+
+    h3, h4, h5, p, a{
+        font-family: 'Poppins ExtraLight';
+    }
+
 /* Navbar Styling */
 
+    .navbar {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .navbar .container {
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-grow: 1;
+    }
+
     .navbar-brand {
-        padding: 0px;
+        padding-bottom: 0;
+        padding-top: 1vw;
+        flex-grow: 1;
     }
 
     .navbar-brand h1 {
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: -0.5rem;
+
     }
 
     .navbar-brand h1{
@@ -20,9 +52,12 @@
 
     .navbar-brand p{
         color: white;
+        margin-bottom: 0;
+        padding-left: 0.2rem;
     }
 
-    nav div div ul li a:link, nav div div ul li a:visited {
+    nav div ul li a:link, nav div ul li a:visited {
+        font-size: larger;
         color: white;
         text-decoration: none;
     }
@@ -31,10 +66,76 @@
 
 /* Vertical Nav Styling */
 
+    .verticalNav {
+        z-index: 999;
+        position: fixed;
+    }
+
+    .dotstyle ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        padding-left: 3vw;
+        padding-top: 35vh;
+        list-style: none;
+        cursor: default;
+    }
+
+    .dotstyle li {
+        position: relative;
+        display: block;
+        float: left;
+        margin: 0.5rem;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+    .dotstyle li a {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border-radius: 50%;
+        background-color: #fff;
+        background-color: rgba(255,255,255,0.3);
+        text-indent: -999em;
+        cursor: pointer; /* make the text accessible to screen readers */
+        position: absolute;
+    }
+
+    .dotstyle-stroke li a {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+        -webkit-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+        transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .dotstyle-stroke li a:hover,
+    .dotstyle-stroke li a:focus {
+        background-color: white;
+    }
+    
+    .dotstyle-stroke li.current a {
+        background-color: transparent;
+        box-shadow: 0 0 0 2px white;
+    }
 
 /* Section styling */
     .cd-section {
         height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .cd-section h1 {
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 10vw;
+        text-align: center;
+        padding-top: 35vh;
     }
 
     .cd-section img{
@@ -70,5 +171,23 @@
 
     .col-6 {
         height: 100vh;
+    }
+
+    #AP-section1 {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/All\ Projects\ Page/BG_2.jpg);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #AP-section1 h1 {
+        font-family: 'Poppins', sans-serif;
+        padding-top: 0;
+    }
+
+    #AP-section1 i {
+        color: white;
+        font-size: 3vw;
     }
 
