@@ -11,77 +11,177 @@
         <!--Custom CSS-->
     <link rel="stylesheet" href="/CSS/style.css">
     <title>GabrielUXUI | Portfolio</title>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/758c54b775.js" crossorigin="anonymous"></script>
+<!--Scripting-->
+<script defer src="/JavaScript/script.js"></script>
 </head>
 <body class="home">
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="/HTML/Home.html">
-                <h1>GabrielUXUI</h1>
-                <p>Creative Designer</p>
-            </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./AllProjects.html">All Projects</a>
-                    </li>
-                </ul>
+      <!--Navigation-->
+
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+            <!--<div class="container mx-0">-->
+                <a class="navbar-brand" href="/HTML/Home.html">
+                    <h1>GabrielUXUI</h1>
+                    <p>Creative Designer</p>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./AllProjects.html">All Projects</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+         <!--Vertical Nav-->
+        <nav class="verticalNav dotstyle dotstyle-stroke">
+            <ul>
+                <li id="dot1" class="current" onclick="makeCurrent(1)"><a href="#Home-section1"></a></li>
+                <li id="dot2"><a href="#Home-section2" onclick="makeCurrent(2)"></a></li>
+                <li id="dot3"><a href="#Home-section3" onclick="makeCurrent(3)"></a></li>
+                <li id="dot4"><a href="#Home-section4" onclick="makeCurrent(4)"></a></li>
+                <li id="dot5"><a href="#Home-section5" onclick="makeCurrent(5)"></a></li>
+                <li id="dot6"><a href="#Home-section6" onclick="makeCurrent(6)"></a></li>
+            </ul>
+        </nav>
+
+    <!--Hero Section 1-->
+    <section id="Home-section1" class="cd-section">
+        <h1>GabrielUXUI</h1>
+        <p>Featured Projects</p>
+        <a href="#Home-section2"><i class="fa-solid fa-angle-down"></i></a>
+    </section>
+
+    <!--FP1 Section 2-->
+    <section id="Home-section2" class="cd-section feat-project">
+        <div class="row">
+            <div class="col-6">
+                <div class="proj-description">
+                    <h2>
+                        LA Fitness
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="demo-img left" src="/Assets/Homepage/LA_Fitness/Home.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="demo-img right" src="/Assets/Homepage/LA_Fitness/QR_Code.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <!--
-    <nav id="nav flex-column">
-    <ul>
-        <li class="nav-item">
-            <a class="nav-link" href="#section1"></a>
-        </li>
-        <li>
-            <a class="nav-link" href="#section2"></a>
-        </li>
-        <li>
-            <a class="nav-link" href="#section3"></a>
-        </li>
-        <li>
-            <a class="nav-link" href="#section4"></a>
-        </li>
-        <li>
-            <a class="nav-link" href="#section5"></a>
-        </li>
-        <li>
-            <a class="nav-link" href="#section6"></a>
-        </li>
-    </ul>
-    </nav>
--->
-    <!--Hero Section 1-->
-    <section id="section1" class="cd-section">
-        <img src="/Assets/Homepage/BG_1.jpg">
-        
     </section>
-    <!--FP1 Section 2-->
-    <section id="section2" class="cd-section">
-        <img src="/Assets/Homepage/LA_Fitness/Gym_BG.jpg">
-        
-    </section>
+
     <!--FP2 Section 3-->
-    <section id="section3" class="cd-section">
-        <img src="/Assets/Homepage/Funimation/Anime_BG.jpg" alt="">
-
-        
+    <section id="Home-section3" class="cd-section feat-project">
+        <div class="row">
+            <div class="col-6">
+                <div class="proj-description">
+                    <h2>
+                        Funimation
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="demo-img left" src="/Assets/Homepage/Funimation/Home.png">
+                    </div>
+                    <div class="col-6">
+                        <img class="demo-img right" src="/Assets/Homepage/Funimation/All_Shows.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
     <!--FP3 Section 4-->
-    <section id="section4" class="cd-section">
-        <img src="/Assets/Homepage/Cunyfirst/College_BG.jpg" alt="">
-        
+    <section id="Home-section4" class="cd-section feat-project">
+        <div class="row">
+            <div class="col-6">
+                <div class="proj-description">
+                    <h2>
+                        CUNYFirst
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="demo-img left" src="/Assets/Homepage/Cunyfirst/Home.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="demo-img right" src="/Assets/Homepage/Cunyfirst/Class.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--FP4 Section 5-->
-    <section id="section5" class="cd-section">
-        <img src="/Assets/Homepage/C0DE/C0DE_BG.jpg" alt="">
-        
-    </section>
-    <!--FP5 Section 6-->
-    <section id="section6" class="cd-section">
-        <img src="/Assets/Homepage/Gameplay/Game_BG.jpg" alt="">
 
+    <!--FP4 Section 5-->
+    <section id="Home-section5" class="cd-section feat-project">
+        <div class="row">
+            <div class="col-6">
+                <div class="proj-description">
+                    <h2>
+                        C0DE
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="demo-img left" src="/Assets/Homepage/C0DE/Home.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="demo-img right" src="/Assets/Homepage/C0DE/Description.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FP5 Section 6-->
+    <section id="Home-section6" class="cd-section feat-project">
+        <div class="row">
+            <div class="col-6">
+                <div class="proj-description">
+                    <h2>
+                        GamePlay
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="demo-img left" src="/Assets/Homepage/Gameplay/Game_Info.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="demo-img right" src="/Assets/Homepage/Gameplay/Reserve.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>

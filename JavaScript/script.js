@@ -13,7 +13,7 @@ function makeCurrent(sectionID) {
 }
 
 window.addEventListener('scroll', function() {
-	var element = document.querySelector('#AP-section1');
+	var element = document.querySelector('#Home-section1');
 	var position = element.getBoundingClientRect();
 
 	// checking whether fully visible
@@ -28,7 +28,7 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('scroll', function() {
-	var element = document.querySelector('#AP-section2');
+	var element = document.querySelector('#Home-section2');
 	var position = element.getBoundingClientRect();
 
 	// checking whether fully visible
@@ -43,7 +43,7 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('scroll', function() {
-	var element = document.querySelector('#AP-section3');
+	var element = document.querySelector('#Home-section3');
 	var position = element.getBoundingClientRect();
 
 	// checking whether fully visible
@@ -58,7 +58,7 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('scroll', function() {
-	var element = document.querySelector('#AP-section4');
+	var element = document.querySelector('#Home-section4');
 	var position = element.getBoundingClientRect();
 
 	// checking whether fully visible
@@ -73,7 +73,7 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('scroll', function() {
-	var element = document.querySelector('#AP-section5');
+	var element = document.querySelector('#Home-section5');
 	var position = element.getBoundingClientRect();
 
 	// checking whether fully visible
@@ -88,7 +88,7 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('scroll', function() {
-	var element = document.querySelector('#AP-section6');
+	var element = document.querySelector('#Home-section6');
 	var position = element.getBoundingClientRect();
 
 	// checking whether fully visible
