@@ -263,11 +263,7 @@
 /* AP Sections */
 
     #AP-section1 {
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/All\ Projects\ Page/BG_2.jpg);
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/AllProjectsPage/BG_2.jpg);
     }
 
     #AP-section1 h1 {
@@ -279,4 +275,81 @@
         color: white;
         font-size: 3vw;
     }
+
+    .project {
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project h2 {
+        font-family: 'Poppins Bold', sans-serif;
+        font-size: 3.5rem;
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+
+    .project p {
+        margin-left: 6rem;
+        margin-right: 6rem;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    #project2-1 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Lego.png);
+    }
+
+    #project2-2 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Snapchat.png);
+    }
+
+    #project2-3 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/ProductHunt.png);
+    }
+
+    #project3-1 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/PhilipsHue.png);
+    }
+
+    #project3-2 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/MacbookPro.png);
+    }
+
+    #project4-1 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Behance.png);
+    }
+
+    #project4-2 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Airpods_Max.png);
+    }
+
+    #project4-3 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/AppleWatchSeries5.png);
+    }
+
+    #project5-1 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/iPhone11ProMax.png);
+    }
+
+    #project5-2 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/iPadPro.png);
+    }
+
+    #project6-1 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Lebanon.png);
+    }
+
+    #project6-2 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Musx.png);
+    }
+
+    #project6-3 {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Assets/AllProjectsPage/Orbi.png);
+    }
+
 
