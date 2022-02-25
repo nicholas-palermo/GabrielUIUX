@@ -7,12 +7,12 @@
     }
 
     h1, h2 {
-        font-family: 'Poppins Light', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: white;
     }
 
     h3, h4, h5, p, a{
-        font-family: 'Poppins ExtraLight';
+        font-family: 'Montserrat';
         color: white;
     }
 
@@ -193,12 +193,12 @@
         }
 
         #Home-section1 h1 {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             padding-top: 0;
         }
 
         #Home-section1 p {
-            font-family: 'Poppins Light', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: white;
             margin-bottom: 0;
         }
@@ -241,7 +241,7 @@
         }
 
         .proj-description h2 {
-            font-family: 'Poppins Bold', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 3rem;
             margin-bottom: 2rem;
             margin-top: -2rem;
@@ -286,7 +286,7 @@
     }
 
     #AP-section1 h1 {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-top: 0;
     }
 
@@ -311,7 +311,7 @@
     }
 
     .project h2 {
-        font-family: 'Poppins Bold', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 3.5vw;
         margin-top: -2rem;
         margin-bottom: 2rem;
@@ -391,7 +391,7 @@
     }
 
     #AP-Footer h1 {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-top: 0px;
     }
 
