@@ -1,6 +1,9 @@
 /* Body Styling */
     .home, .AllProjects{
         background-color: black;
+        animation: fadeInAnimation 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
 
     h1, h2 {
@@ -11,6 +14,15 @@
     h3, h4, h5, p, a{
         font-family: 'Poppins ExtraLight';
         color: white;
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
     }
 
 /* Navbar Styling */
